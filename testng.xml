@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="OrangeHrm" verbose="1" >
+<listeners>
+    <listener class-name="com.orangehrm.base.Base" />
+  </listeners>
+  
+<parameter name="username"  value="joieufdsmck"/>
+<parameter name="password"  value="cekwojm"/>
+
+  <test name="Orange1" >
+    <classes>
+       <class name="com.orangehrm.tests.Login" />
+    </classes>
+  </test>
+
+</suite>

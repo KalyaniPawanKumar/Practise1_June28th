@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrm]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="password" value="cekwojm"/>
+  <parameter name="username" value="joieufdsmck"/>
+  <listeners>
+    <listener class-name="com.orangehrm.base.Base"/>
+  </listeners>
+  <test name="Orange1(failed)">
+    <classes>
+      <class name="com.orangehrm.tests.Login">
+        <methods>
+          <include name="login_001"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.Login -->
+    </classes>
+  </test> <!-- Orange1(failed) -->
+</suite> <!-- Failed suite [OrangeHrm] -->
